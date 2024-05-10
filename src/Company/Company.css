@@ -1,0 +1,7 @@
+.Company img {
+    opacity: 0.5;
+}
+
+.Company img:hover {
+    opacity: 10;
+}
