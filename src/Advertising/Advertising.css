@@ -1,0 +1,12 @@
+.Add {
+    padding: 10px 0;
+}
+
+.Add .Add-title {
+    font-size: 40px;
+}
+
+.Add .Add-subtitle {
+    font-size: 20px;
+    line-height: 40px;
+}

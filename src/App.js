@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './Navbar/Navbar'
 import Features from './Features/Features'
 import Company from './Company/Company'
+import Advertising from './Advertising/Advertising'
 
 function App() {
   return (
@@ -30,6 +31,15 @@ function App() {
         <Company></Company>
         <Company></Company>
         <Company></Company>
+      </div>
+      <div className="adds">
+        <img src="https://hivalearn.ir/templates/kasuka/assets/img/features.jpg" alt="" />
+        <div className='adds-text'>
+          <Advertising></Advertising>
+          <Advertising></Advertising>
+          <Advertising></Advertising>
+          <Advertising></Advertising>
+        </div>
       </div>
     </div>
   );

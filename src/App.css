@@ -62,3 +62,17 @@
   display: flex;
   justify-content: space-between;
 }
+
+.adds {
+  display: flex;
+}
+
+.adds img {
+  padding: 30px;
+  width: 800px;
+  height: 700px;
+}
+
+.adds-text {
+  padding: 30px;
+}
