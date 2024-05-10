@@ -10,6 +10,9 @@
 
 .Header { 
   background-image: url('https://hivalearn.ir/templates/kasuka/assets/img/hero-bg.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
   text-align: center;
 }
@@ -21,4 +24,15 @@
 
 .Header-title span {
   color: #ffff00;
+}
+
+.Header-subtitle {
+  font-size: 30px;
+  color: #756868;
+}
+
+.Features-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0;
 }

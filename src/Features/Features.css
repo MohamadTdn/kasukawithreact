@@ -1,0 +1,12 @@
+.Features {
+    border: 3px solid #808080;
+    padding: 50px;
+    margin: 20px;
+    width: 300px;
+    color: #ffffff;
+}
+
+.Features:hover {
+    border: 3px solid #ffff00;
+    transition: 0.5s;
+}
