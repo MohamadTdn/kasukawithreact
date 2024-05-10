@@ -1,0 +1,55 @@
+.Navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+}
+
+.Navbar img {
+    width: 100px;
+}
+
+.Navbar div {
+    display: flex;
+}
+
+.Navbar .Navbar-title {
+    color: #fff;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.Navbar-menu {
+    padding: 40px;
+}
+
+.Navbar-menu li {
+    display: inline;
+    padding: 25px;
+}
+
+.Navbar-menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.Navbar-menu li a:hover {
+    color: #ffff00;
+}
+
+.Start-btn {
+    height: 50px;
+    margin: 30px;
+    padding: 20px 30px;
+    background-color: #000000;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid #ffff00;
+}
+
+.Start-btn:hover {
+    background-color: #ffff00;
+    color: #000000;
+    transition: 0.25s;
+    cursor: pointer;
+}
