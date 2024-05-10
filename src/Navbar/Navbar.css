@@ -1,7 +1,10 @@
 .Navbar {
+    width: 100%;
     display: flex;
     justify-content: space-around;
     background-color: #000000;
+    position: fixed;
+    top: 0;
 }
 
 .Navbar img {

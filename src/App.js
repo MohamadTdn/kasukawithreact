@@ -4,6 +4,7 @@ import Navbar from './Navbar/Navbar'
 import Features from './Features/Features'
 import Company from './Company/Company'
 import Advertising from './Advertising/Advertising'
+import Survices from './Survices/Survices'
 
 function App() {
   return (
@@ -41,6 +42,25 @@ function App() {
           <Advertising></Advertising>
         </div>
       </div>
+      <h1>خدمات ما را بررسی کنید</h1>
+      <div className='Our-survices'> 
+        <Survices></Survices>
+        <Survices></Survices>
+        <Survices></Survices>
+        <Survices></Survices>
+        <Survices></Survices>
+        <Survices></Survices>
+      </div>
+      <div className='colab'>
+        <h1>فراخوانی برای اقدام</h1>
+        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون ب زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچیناساسا مورد استفاده قرار گیرد.</p>
+        <button>فراخوانی برای اقدام</button>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 }
