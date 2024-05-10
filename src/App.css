@@ -36,3 +36,24 @@
   justify-content: space-between;
   padding: 100px 0;
 }
+
+.About-kasuka {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px 0 ;
+}
+
+.About-kasuka img {
+  width: 700px;
+  height: 500px;
+  margin: 50px;
+}
+
+.About-kasuka .title {
+  padding: 20px;
+}
+
+.About-kasuka .description {
+  font-size: 30px;
+  line-height: 50px;
+}
