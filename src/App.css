@@ -57,3 +57,8 @@
   font-size: 30px;
   line-height: 50px;
 }
+
+.companies {
+  display: flex;
+  justify-content: space-between;
+}
