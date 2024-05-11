@@ -6,6 +6,7 @@ import Company from './Company/Company'
 import Advertising from './Advertising/Advertising'
 import Survices from './Survices/Survices'
 import Portfolio from './Portfolio/Portfolio'
+import Team from './Team/Team'
 
 function App() {
   return (
@@ -76,7 +77,18 @@ function App() {
           <Portfolio></Portfolio>
         </div>
       </div>
-      
+      <div className='Comments'>
+        <img src="https://hivalearn.ir/templates/kasuka/assets/img/testimonials/testimonials-1.jpg" className='Comment-avatar' alt="" />
+        <h4 className="User-name">محمد تدین</h4>
+        <p className='Comment-text'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک استان را جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.</p>
+      </div>
+      <h1>تیم ما</h1>
+      <div className='Our-team'>
+        <Team></Team>
+        <Team></Team>
+        <Team></Team>
+        <Team></Team>
+      </div>
     </div>
   );
 }

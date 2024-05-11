@@ -1,0 +1,13 @@
+.Team img {
+    width: 300px;
+}
+
+.Team .Member-name {
+    font-size: 30px;
+    padding: 30px;
+}
+
+.Team .Member-job {
+    font-size: 19px;
+    padding: 0 30px;
+}

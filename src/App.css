@@ -149,3 +149,39 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.Comments {
+  background-image: url('https://hivalearn.ir/templates/kasuka/assets/img/testimonials-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  text-align: center;
+  color: #ffff;
+}
+
+.Comment-avatar {
+  width: 200px;
+  border-radius: 50%;
+  border: 4px solid #ff0000;
+  margin: 50px 0;
+}
+
+.User-name {
+  font-size: 50px;
+}
+
+.Comment-text {
+  font-size: 30px;
+  margin: 30px auto;
+  line-height: 60px;
+  width: 60%;
+}
+
+.Our-team {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0;
+}
