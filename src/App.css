@@ -122,3 +122,30 @@
   transition: 0.25s;
   cursor: pointer;
 }
+
+.Portfolio-category {
+  text-align: center;
+}
+
+.Portfolio-category li{
+  display: inline-block;
+}
+
+.Portfolio-category li a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 10px;
+  padding: 10px 20px;
+}
+
+.Portfolio-category li a:hover {
+  background-color: #ffff00;
+  transition: 0.25s;
+}
+
+.Portfolios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

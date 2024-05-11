@@ -5,6 +5,7 @@ import Features from './Features/Features'
 import Company from './Company/Company'
 import Advertising from './Advertising/Advertising'
 import Survices from './Survices/Survices'
+import Portfolio from './Portfolio/Portfolio'
 
 function App() {
   return (
@@ -56,11 +57,26 @@ function App() {
         <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون ب زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچیناساسا مورد استفاده قرار گیرد.</p>
         <button>فراخوانی برای اقدام</button>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <h1>نمونه کارها</h1>
+      <div className='Portfolio-containeer'>
+        <ul className='Portfolio-category'>
+          <li><a href="#">همه</a></li>
+          <li><a href="#">برنامه</a></li>
+          <li><a href="#">محصول</a></li>
+          <li><a href="#">اینترنت</a></li>
+        </ul>
+        <div className='Portfolios'>
+          <Portfolio></Portfolio>
+          <Portfolio></Portfolio>
+          <Portfolio></Portfolio>
+          <Portfolio></Portfolio>
+          <Portfolio></Portfolio>
+          <Portfolio></Portfolio>
+          <Portfolio></Portfolio>
+          <Portfolio></Portfolio>
+        </div>
+      </div>
+      
     </div>
   );
 }
