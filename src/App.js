@@ -7,6 +7,8 @@ import Advertising from './Advertising/Advertising'
 import Survices from './Survices/Survices'
 import Portfolio from './Portfolio/Portfolio'
 import Team from './Team/Team'
+import Info from './Info/Info'
+import Form from './Form/Form'
 
 function App() {
   return (
@@ -88,6 +90,17 @@ function App() {
         <Team></Team>
         <Team></Team>
         <Team></Team>
+      </div>
+      <h1>با ما تماس بگیرید</h1>
+      <div className='Contact-us'>
+        <div className='Infos'>
+          <Info></Info>
+          <Info></Info>
+          <Info></Info>
+        </div>
+        <div className='Info-form'> 
+          <Form></Form>
+        </div>
       </div>
     </div>
   );

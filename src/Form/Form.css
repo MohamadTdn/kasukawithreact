@@ -1,0 +1,29 @@
+input , textarea {
+    margin: 20px;
+    padding: 10px;
+    font-size: 32px;
+    border: 1px solid #000000;
+}
+
+.title {
+    width: 96%;
+}
+
+.Messege {
+    width: 96%;
+    height: 400px;
+}
+
+input[type=submit] {
+    background-color: #ffff00;
+    border: none;
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+input[type=submit]:hover {
+    background-color: #d5d516;
+    cursor: pointer;
+    transition: 0.25s;
+}

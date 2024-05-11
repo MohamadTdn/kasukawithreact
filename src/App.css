@@ -185,3 +185,9 @@
   justify-content: space-evenly;
   margin: 20px 0;
 }
+
+.Contact-us {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-around;
+}
