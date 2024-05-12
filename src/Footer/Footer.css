@@ -1,0 +1,31 @@
+.Footer {
+    width: 100%;
+    background-color: #1f1e1e;
+}
+
+.Footer img {
+    width: 100px;
+}
+
+.Address {
+    width: 500px;
+}
+
+.Address , .Phone-number , .Email {
+    color: #fff;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.Footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+p , h4 {
+    font-size: 30px;
+    width: 600px;
+    color: #fff;
+    line-height: 60px;
+}
+

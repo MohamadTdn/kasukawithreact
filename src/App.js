@@ -9,6 +9,7 @@ import Portfolio from './Portfolio/Portfolio'
 import Team from './Team/Team'
 import Info from './Info/Info'
 import Form from './Form/Form'
+import Footer from './Footer/Footer'
 
 function App() {
   return (
@@ -101,6 +102,9 @@ function App() {
         <div className='Info-form'> 
           <Form></Form>
         </div>
+      </div>
+      <div className='Site-footer'>
+        <Footer></Footer>
       </div>
     </div>
   );

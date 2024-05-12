@@ -1,0 +1,18 @@
+.List {
+    margin: 20px;
+}
+
+.List ul {
+    list-style: none;
+}
+
+.List ul li {
+    display: block;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.List h5 {
+    color: #fff;
+    font-size: 20px;
+}

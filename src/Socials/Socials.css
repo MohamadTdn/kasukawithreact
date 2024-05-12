@@ -1,0 +1,7 @@
+.Footer ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    font-size: 21px;
+    color: #fff;
+}
