@@ -22,7 +22,7 @@
     justify-content: space-between;
 }
 
-p , h4 {
+.News-title , .News-description {
     font-size: 30px;
     width: 600px;
     color: #fff;

@@ -4,9 +4,9 @@
     width: 100%;
 }
 
-.Copyright h4 {
+.Copyright .Copyright-text {
     text-align: center;
     margin: auto;
     font-size: 20px;
-    padding: 15px;
+    padding: 30px;
 }

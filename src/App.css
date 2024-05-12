@@ -31,8 +31,9 @@
 }
 
 .Header-subtitle {
-  font-size: 30px;
+  font-size: 40px;
   color: #756868;
+  text-align: center;
 }
 
 .Features-container {
