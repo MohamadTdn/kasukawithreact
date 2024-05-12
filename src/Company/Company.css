@@ -1,7 +1,10 @@
 .Company img {
     opacity: 0.5;
+    width: 200px;
+    height: 100px;
 }
 
 .Company img:hover {
     opacity: 10;
+    transition: 0.5s;
 }

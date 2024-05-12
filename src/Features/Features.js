@@ -1,9 +1,9 @@
 import './Features.css'
 
-function Features () {
+function Features (props) {
     return (
         <div className='Features'>
-            <h1 className='Features-title'>متن تستی</h1>
+            <h1 className='Features-title'>{props.title}</h1>
         </div>
     )
 }

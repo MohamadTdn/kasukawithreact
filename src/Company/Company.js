@@ -1,9 +1,9 @@
 import './Company.css'
 
-function Company () {
+function Company (props) {
     return (
         <div className="Company">
-            <img src="mit.png" alt="" />
+            <img src={props.src} alt="" />
         </div>
     )
 }
