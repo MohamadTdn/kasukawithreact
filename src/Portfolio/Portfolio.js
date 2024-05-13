@@ -1,9 +1,9 @@
 import './Portfolio.css'
 
-function Portfolio () {
+function Portfolio (props) {
     return (
         <div className='Portfolio'>
-            <img src="https://hivalearn.ir/templates/kasuka/assets/img/portfolio/portfolio-4.jpg" alt="" />
+            <img src={props.src} alt="" />
         </div>
     )
 }

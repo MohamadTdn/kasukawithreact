@@ -116,14 +116,15 @@ function App() {
           </li>
         </ul>
         <div className="Portfolios">
-          <Portfolio></Portfolio>
-          <Portfolio></Portfolio>
-          <Portfolio></Portfolio>
-          <Portfolio></Portfolio>
-          <Portfolio></Portfolio>
-          <Portfolio></Portfolio>
-          <Portfolio></Portfolio>
-          <Portfolio></Portfolio>
+          <Portfolio src="https://hivalearn.ir/templates/kasuka/assets/img/portfolio/portfolio-2.jpg"></Portfolio>
+          <Portfolio src="https://hivalearn.ir/templates/kasuka/assets/img/portfolio/portfolio-1.jpg"></Portfolio>
+          <Portfolio src="https://hivalearn.ir/templates/kasuka/assets/img/portfolio/portfolio-3.jpg"></Portfolio>
+          <Portfolio src="https://hivalearn.ir/templates/kasuka/assets/img/portfolio/portfolio-4.jpg"></Portfolio>
+          <Portfolio src="https://hivalearn.ir/templates/kasuka/assets/img/portfolio/portfolio-5.jpg"></Portfolio>
+          <Portfolio src="https://hivalearn.ir/templates/kasuka/assets/img/portfolio/portfolio-7.jpg"></Portfolio>
+          <Portfolio src="https://hivalearn.ir/templates/kasuka/assets/img/portfolio/portfolio-6.jpg"></Portfolio>
+          <Portfolio src="https://hivalearn.ir/templates/kasuka/assets/img/portfolio/portfolio-8.jpg"></Portfolio>
+          <Portfolio src="https://hivalearn.ir/templates/kasuka/assets/img/portfolio/portfolio-9.jpg"></Portfolio>
         </div>
       </div>
       <div className="Comments">
@@ -141,17 +142,17 @@ function App() {
       </div>
       <h1>تیم ما</h1>
       <div className="Our-team">
-        <Team></Team>
-        <Team></Team>
-        <Team></Team>
-        <Team></Team>
+        <Team src="https://hivalearn.ir/templates/kasuka/assets/img/team/team-1.jpg" name="والتر وایت" job="مدیر"></Team>
+        <Team src="https://hivalearn.ir/templates/kasuka/assets/img/team/team-2.jpg" name="کیم وکسلر" job="وکیل"></Team>
+        <Team src="https://hivalearn.ir/templates/kasuka/assets/img/team/team-3.jpg" name="محمد تدین" job="برنامه نویس"></Team>
+        <Team src="https://hivalearn.ir/templates/kasuka/assets/img/team/team-4.jpg" name="آماندا جپسون" job="حسابدار"></Team>
       </div>
       <h1>با ما تماس بگیرید</h1>
       <div className="Contact-us">
         <div className="Infos">
-          <Info></Info>
-          <Info></Info>
-          <Info></Info>
+          <Info title="تماس بگیرید" address="012345678910"></Info>
+          <Info title="ایستاگرام" address="mohamad_tdn"></Info>
+          <Info title="تلگرام" address="Mr_MTdn"></Info>
         </div>
         <div className="Info-form">
           <Form></Form>

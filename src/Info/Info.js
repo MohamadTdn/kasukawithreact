@@ -1,10 +1,10 @@
 import './Info.css'
 
-function Info () {
+function Info (props) {
     return (
         <div className='Info'>
-            <h2 className="Info-title">تماس بگیرید</h2>
-            <h5 className="Info-subtitle">012345678910</h5>
+            <h2 className="Info-title">{props.title}</h2>
+            <h5 className="Info-subtitle">{props.address}</h5>
         </div>
     )
 }
